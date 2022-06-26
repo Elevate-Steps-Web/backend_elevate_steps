@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_text_carousel_texts",
+  "info": {
+    "displayName": "CarouselText",
+    "icon": "text-width",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Header": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "LinkText": {
+      "type": "string"
+    },
+    "LinkRoute": {
+      "type": "string"
+    }
+  }
+}
