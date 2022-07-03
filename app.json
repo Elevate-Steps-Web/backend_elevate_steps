@@ -1,0 +1,17 @@
+{
+  "environments": {
+    "review": {
+      "addons": ["heroku-postgresql:hobby-dev"]
+    }
+  },
+  "env": {
+    "APP_KEYS": "VPJUuC29XI7VmUjY4a3bUw==,AfLGJF/npsLd0vdWM3s8hQ==,wCzKPldUDmW3GsbySDMf+w==,TIjAE1rTN0t7FzfKWM87Gw==",
+    "API_TOKEN_SALT": "O6pE5Qh6x+psNXrF4hzjvg==",
+    "ADMIN_JWT_SECRET": "sTxpbZNeVbvyApLkoJV+6Q==",
+    "JWT_SECRET": "CadTGk7xSZY74j3mLzd+VA==",
+    "CLOUDINARY_NAME": "elevate-steps",
+    "CLOUDINARY_KEY": "796254687798335",
+    "CLOUDINARY_SECRET": "I5LrH5MnFwiBjqppJRbzDbzXSPM",
+    "NODE_ENV": "development"
+  }
+}
