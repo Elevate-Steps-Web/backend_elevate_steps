@@ -1,7 +1,9 @@
 module.exports = ({ env }) => ({
-  host: env('0.0.0.0'),
-  port: env.int(1337),
+  host: env('HOST', '0.0.0.0'),
+  url: env("MY_HEROKU_URL"),
+  port: env.int('PORT', 1337),
+  proxy: true,
   app: {
-    keys: env.array('APP_KEYS'),
+    keys: env.array('APP_KEYS', ['keys', 'keys']),
   },
 });
