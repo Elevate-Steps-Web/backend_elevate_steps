@@ -11,17 +11,17 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-i18n": "4.2.3",
-    "@strapi/plugin-users-permissions": "4.2.3",
-    "@strapi/provider-upload-cloudinary": "^4.2.3",
-    "@strapi/strapi": "4.2.3",
+    "@strapi/plugin-i18n": "4.3.2",
+    "@strapi/plugin-users-permissions": "4.3.2",
+    "@strapi/provider-upload-cloudinary": "^4.3.2",
+    "@strapi/strapi": "4.3.2",
     "better-sqlite3": "7.4.6",
     "passport": "0.6.0",
     "pg": "^8.7.3",
     "pg-connection-string": "^2.5.0"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Elevate Steps || Gifko Graphix"
   },
   "strapi": {
     "uuid": "6ab615a5-51d6-4295-a221-14b2b8616d4c"
