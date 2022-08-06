@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_images_image_caroussels",
+  "info": {
+    "displayName": "ImageCaroussel",
+    "icon": "images",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "carousselText": {
+      "type": "component",
+      "repeatable": true,
+      "component": "text.carousel-text"
+    },
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
