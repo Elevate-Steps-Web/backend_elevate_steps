@@ -10,7 +10,7 @@
     "Header": {
       "type": "string"
     },
-    "Description": {
+    "Caption": {
       "type": "string"
     },
     "LinkRoute": {

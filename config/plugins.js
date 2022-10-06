@@ -15,4 +15,22 @@ module.exports = ({ env }) => ({
       },
     },
     // ...
+  email: {
+    config: {
+      provider: 'nodemailer',
+      providerOptions: {
+        host: env('SMTP_HOST', 'smtp.gmail.com'),
+        port: env('SMTP_PORT', 465),
+	secure: true,
+        auth: {
+          user: env('SMTP_EMAIL'),
+          pass: env('SMTP_PASSWORD'),
+        }
+      },
+      settings: {
+        defaultFrom: 'elevate.steps.web@gmail.com'
+      },
+    },
+  },
+  // ...
   });

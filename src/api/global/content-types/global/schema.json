@@ -40,6 +40,32 @@
       },
       "type": "string",
       "required": true
+    },
+    "nav": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "navigation.nav-dropdown",
+        "navigation.nav-item",
+        "images.nav-brand"
+      ]
+    },
+    "footer": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "images.nav-brand",
+        "navigation.footer-column",
+        "sections.social-media-section"
+      ]
     }
   }
 }

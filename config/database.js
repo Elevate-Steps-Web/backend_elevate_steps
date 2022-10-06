@@ -12,9 +12,20 @@ module.exports = ({ env }) => {
                 database,
                 user,
                 password,
-                ssl: { rejectUnauthorized: false },
+                // ssl: { rejectUnauthorized: false },
             },
             debug: false,
+	    acquireConnectionTimeout: 5000000,
+    	    pool: {
+      		min: 0,
+      		max: 50,
+      		createTimeoutMillis: 300000,
+      		acquireTimeoutMillis: 300000,
+      		idleTimeoutMillis: 300000,
+      		reapIntervalMillis: 300000,
+      		createRetryIntervalMillis: 2000,
+      		propagateCreateError: false,
+    	    },
         },
     }
 };
